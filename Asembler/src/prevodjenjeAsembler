@@ -1,0 +1,4 @@
+#!/bin/bash
+[ -e  ../bin/assembler ] && { rm ../bin/assembler; printf "Prethodna verzija izbrisana\n"; }
+g++ ./Asembler.cpp ./Main.cpp ./Exception.cpp -o ../bin/assembler
+printf "Nova verzija uspesno napravljena\n"

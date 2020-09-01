@@ -1,0 +1,3 @@
+.section error:
+halt
+.end

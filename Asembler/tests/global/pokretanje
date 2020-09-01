@@ -1,0 +1,5 @@
+#!/bin/bash
+
+../../bin/assembler global.s -o global.o
+[ -e ./eglobal.o ] && rm ./eglobal.o 
+[ -e ./global.o ] && { printf "Otvaranje fajla global.o\n"; code ./global.o; }

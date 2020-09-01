@@ -1,0 +1,4 @@
+#!/bin/bash
+../../bin/assembler reallocNoEqu.s -o reallocNoEqu.o
+[ -e ./ereallocNoEqu.o ] && rm ./ereallocNoEqu.o 
+[ -e ./reallocNoEqu.o ] && { printf "Otvaranje fajla reallocNoEqu.o\n"; code ./reallocNoEqu.o; }

@@ -1,0 +1,5 @@
+#!/bin/bash
+[ -e ./byteEqu.o ] && rm ./byteEqu.o 
+../../bin/assembler byteEqu.s -o byteEqu.o
+[ -e ./ebyteEqu.o ] && rm ./ebyteEqu.o 
+[ -e ./byteEqu.o ] && { printf "Otvaranje fajla byteEqu.o\n"; code ./byteEqu.o; }

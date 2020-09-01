@@ -1,0 +1,5 @@
+#!/bin/bash
+
+../../bin/assembler extern.s -o extern.o
+[ -e ./eextern.o ] && rm ./eextern.o 
+[ -e ./extern.o ] && { printf "Otvaranje fajla extern.o\n"; code ./extern.o; }

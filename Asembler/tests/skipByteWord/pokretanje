@@ -1,0 +1,4 @@
+#!/bin/bash
+../../bin/assembler sbw.s -o sbw.o
+[ -e ./esbw.o ] && rm ./esbw.o 
+[ -e ./sbw.o ] && { printf "Otvaranje fajla sbw.o\n"; code ./sbw.o; }

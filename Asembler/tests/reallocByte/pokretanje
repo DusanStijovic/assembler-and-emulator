@@ -1,0 +1,4 @@
+#!/bin/bash
+../../bin/assembler reallocByte.s -o reallocByte.o
+[ -e ./ereallocByte.o ] && rm ./ereallocByte.o 
+[ -e ./reallocByte.o ] && { printf "Otvaranje fajla reallocByte.o\n"; code ./reallocByte.o; }

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+../../../Asembler/bin/assembler timer.s -o timer.o
+../../../Asembler/bin/assembler terminal.s -o terminal.o
+../../../Asembler/bin/assembler data.s -o data.o
+../../../Asembler/bin/assembler rutine.s -o rutine.o
+../../../Asembler/bin/assembler obrada.s -o obrada.o
+../../../Asembler/bin/assembler error.s -o error.o
+../../../Asembler/bin/assembler startRoutine.s -o startRoutine.o
+
+
+../../bin/emulator -place=startRoutine@1000 -place=error@2000 -place=timer@3000 -place=terminal@4000 estartRoutine.o eerror.o eobrada.o edata.o eterminal.o etimer.o -place=rutine@0 erutine.o
+
+
+[ -e ./timer.o ] && rm ./timer.o ./etimer.o
+[ -e ./terminal.o ] && rm ./terminal.o ./eterminal.o 
+[ -e ./error.o ] && rm ./error.o ./eerror.o 
+[ -e ./startRoutine.o ] && rm ./startRoutine.o ./estartRoutine.o
+[ -e ./rutine.o ] && rm ./rutine.o ./erutine.o
+[ -e ./data ] && rm ./data.o ./edata.o
+[ -e ./obrada.o ] && rm ./obrada.o ./eobrada.o

@@ -1,0 +1,13 @@
+Dusan Stijovic
+UND:0:0:0:0:0:
+brojPodataka:-1:1:3:12:-1:
+data:1:0:1:0:14:
+podaci:1:1:2:0:-1:
+equ realoc
+end equ realloc
+new section
+data
+section code
+81:ff:d4:fe:c2:01:bc:01:2b:fe:04:00:04:00:
+end section
+end

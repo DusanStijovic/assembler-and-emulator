@@ -1,0 +1,4 @@
+#!/bin/bash
+[ -e  ../bin/emulator ] && { rm ../bin/emulator; printf "Prethodna verzija izbrisana\n"; }
+g++ ./Emulator.cpp ./Main.cpp -o ../bin/emulator
+printf "Nova verzija uspesno napravljena\n"

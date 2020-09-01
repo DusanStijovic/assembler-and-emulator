@@ -1,0 +1,4 @@
+#!/bin/bash
+../../bin/assembler reallocEquSpecial.s -o reallocEquSpecial.o
+[ -e ./ereallocEquSpecial.o ] && rm ./ereallocEquSpecial.o 
+[ -e ./reallocEquSpecial.o ] && { printf "Otvaranje fajla sbw.o\n"; code ./reallocEquSpecial.o; }

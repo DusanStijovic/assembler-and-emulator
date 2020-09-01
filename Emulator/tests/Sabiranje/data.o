@@ -1,0 +1,29 @@
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+                                  Symbols Table                                  
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+   SymbolName   :   SectionNumber   :   Value   :IsGlobal:   Number   :   Size   
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      UND       :         0         :     0     :  false :     0      :    0     
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  brojPodataka  :        -1         :    12     :  true  :     3      :    -1    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      data      :         1         :     0     :  false :     1      :    14    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+     podaci     :         1         :     0     :  true  :     2      :    -1    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+   podaciKraj   :         1         :    12     :  false :     4      :    -1    
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Section Realocation
+
+           Reallocation legend         
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+       Type        :      TypeName     
+        0          :      PC_REL       
+        1          :      SYMBOL       
+        2          :  SYMBOL_ONE_BYTE  
+        3          :     EQU_SYMBOL    
+Section code
+Ime sekcije: data
+81 ff d4 fe c2 01 bc 01 2b fe 04 00 04 00 
+

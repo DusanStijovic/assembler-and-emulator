@@ -1,0 +1,4 @@
+#!/bin/bash
+../../bin/assembler reallocEquGlobal.s -o reallocEquGlobal.o
+[ -e ./ereallocEquGlobal.o ] && rm ./ereallocEquGlobal.o 
+[ -e ./reallocEquGlobal.o ] && { printf "Otvaranje fajla reallocEquGlobal.o\n"; code ./reallocEquGlobal.o; }

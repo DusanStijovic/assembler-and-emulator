@@ -1,0 +1,5 @@
+#!/bin/bash
+[ -e ./symbolAsByte.o ]  && rm ./symbolAsByte.o
+../../bin/assembler  symbolAsByte.s -o symbolAsByte.o
+[ -e ./esymbolAsByte.o ] && rm ./esymbolAsByte.o 
+[ -e ./symbolAsByte.o ] && { printf "Otvaranje fajla symbolAsByte.o\n"; code ./symbolAsByte.o; }
